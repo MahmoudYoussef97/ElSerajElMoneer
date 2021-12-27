@@ -1,0 +1,15 @@
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/bin/Debug/net5.0/ElSerajElMoneer.Core.deps.json
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/bin/Debug/net5.0/ElSerajElMoneer.Core.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/bin/Debug/net5.0/ref/ElSerajElMoneer.Core.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/bin/Debug/net5.0/ElSerajElMoneer.Core.pdb
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/bin/Debug/net5.0/ElSerajElMoneer.Shared.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/bin/Debug/net5.0/ElSerajElMoneer.Shared.pdb
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.csproj.AssemblyReference.cache
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.AssemblyInfoInputs.cache
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.AssemblyInfo.cs
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.csproj.CoreCompileInputs.cache
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.csproj.CopyComplete
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ref/ElSerajElMoneer.Core.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/Debug/net5.0/ElSerajElMoneer.Core.pdb

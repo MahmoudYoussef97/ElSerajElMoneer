@@ -1,0 +1,71 @@
+﻿<style>
+    @@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@700&display=swap');
+
+    body {
+        font-family: 'Noto Kufi Arabic', sans-serif;
+    }
+
+    .sidebar[b-z5li2q9z35] {
+        background-image: linear-gradient( 180deg, @backgroundColor 0%, #171418 70%);
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="top-row mx-auto navbar navbar-dark">
+    <a class="navbar-brand mx-auto" href="" style="font-size:24px">
+        السراج المنير  ﷺ
+    </a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link text-center" href="/" Match="NavLinkMatch.All" @onclick='() => ChangeNavMenuColor("home")'>
+                <span class="oi oi-home" dir="rtl" lang="ar" aria-hidden="true" ></span> الرئيسية
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link"   href="/taghredat" @onclick='() => ChangeNavMenuColor("taghredat")'>
+                <span class="" dir="rtl" lang="ar" aria-hidden="true">
+                    <i class="fa fa-twitter px-2" style="font-size:20px;"></i>
+
+                </span> تغريدات في السيرة
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+    private static Dictionary<string, string> navMenuColors = new Dictionary<string, string>()
+    {
+        { "taghredat", "#2cb4dd" },
+        { "home", "#662f34"}
+    };
+    string backgroundColor = navMenuColors["home"];
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+    private void ChangeNavMenuColor(string pageName)
+    {
+        backgroundColor = navMenuColors[pageName];
+        Console.WriteLine(pageName);
+        Console.WriteLine(backgroundColor);
+    }
+}

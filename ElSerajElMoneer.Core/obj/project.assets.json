@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ElSerajElMoneer.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ElSerajElMoneer.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ElSerajElMoneer.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ElSerajElMoneer.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj",
+      "msbuildProject": "../ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ElSerajElMoneer.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mahyoussef/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/ElSerajElMoneer.Core.csproj",
+      "projectName": "ElSerajElMoneer.Core",
+      "projectPath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/ElSerajElMoneer.Core.csproj",
+      "packagesPath": "/Users/mahyoussef/.nuget/packages/",
+      "outputPath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mahyoussef/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj": {
+              "projectPath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
