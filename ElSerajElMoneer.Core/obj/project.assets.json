@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "ElSerajElMoneer.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ElSerajElMoneer.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ElSerajElMoneer.Data.dll": {}
+        }
+      },
       "ElSerajElMoneer.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "ElSerajElMoneer.Data/1.0.0": {
+      "type": "project",
+      "path": "../ElSerajElMoneer.Data/ElSerajElMoneer.Data.csproj",
+      "msbuildProject": "../ElSerajElMoneer.Data/ElSerajElMoneer.Data.csproj"
+    },
     "ElSerajElMoneer.Shared/1.0.0": {
       "type": "project",
       "path": "../ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ElSerajElMoneer.Data >= 1.0.0",
       "ElSerajElMoneer.Shared >= 1.0.0"
     ]
   },
@@ -51,6 +67,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Data/ElSerajElMoneer.Data.csproj": {
+              "projectPath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Data/ElSerajElMoneer.Data.csproj"
+            },
             "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj": {
               "projectPath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj"
             }

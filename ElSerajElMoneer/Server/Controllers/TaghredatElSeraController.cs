@@ -11,6 +11,7 @@ using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using ElSerajElMoneer.Server.Dtos;
 using Newtonsoft.Json;
+using ElSerajElMoneer.Data.Dtos;
 
 namespace ElSerajElMoneer.Server.Controllers
 {
@@ -63,7 +64,7 @@ namespace ElSerajElMoneer.Server.Controllers
 
                 _logger.LogInformation($"---------- Taghreda is Fetched Succesfully ----------");
 
-                await UpdateCounter(id, "watch");
+                await _taghredatElSeraService.UpdateCounterAsync("watch", id);
 
                 _logger.LogInformation($"---------- Watch Counter is Updated ----------");
                 _logger.LogInformation($"---------- Response Code: 200 OK Succesfully Sent ----------");
@@ -76,32 +77,72 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500);
         }
-        [HttpPost("updateCounter/{id}")]
-        public async Task UpdateCounter(string id, [FromBody] string counterType)
+        [HttpGet("download/{id}")]
+        public async Task<IActionResult> Download(string id)
         {
-            var counter = GetTypeOfCounter(counterType);
-            await _taghredatElSeraService.UpdateCounterAsync(counter, id);
-        }
-        [HttpGet("download/{fileName}")]
-        public async Task<IActionResult> Download(string fileName)
-        {
-            //Build the File Path.
-            string currentDirectory = "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/wwwroot/";
-            string path = Path.Combine(currentDirectory, "taghredat/") + fileName + ".mp4";
+            _logger.LogInformation($"---------- GET {Request.Path} -> Recieving a Request From:{Request.Host.Host} ----------");
             try
-            {   
-                PhysicalFileResult result = PhysicalFile(path, "application/octet-stream", fileName+".mp4");
-                await UpdateCounter(fileName, "download");
+            {
+                var taghreda = await _taghredatElSeraService.GetTaghredaByIdAsync(id);
+                if (taghreda == null)
+                    return NotFound();
+
+                _logger.LogInformation($"---------- Taghreda is Fetched Succesfully ----------");
+
+                var result = PhysicalFile(taghreda.DownloadUrl, "application/octet-stream", id+".mp4");
+                await _taghredatElSeraService.UpdateCounterAsync("download", id);
+
+                _logger.LogInformation($"---------- Taghreda is Downloaded Succesfully ----------");
+                _logger.LogInformation($"---------- Download Counter is Updated ----------");
+
                 return result;
             }
-            catch
+            catch(Exception ex)
             {
-                return BadRequest();
+                _logger.LogError($"Exception: {ex.ToString()}");
             }
+            return StatusCode(500);
         }
-        private Counter GetTypeOfCounter(string counter)
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)
         {
-            return counter.ToLower().Equals("download") ? Counter.DownloadCounter : Counter.WatchCounter;
+            _logger.LogInformation($"---------- POST {Request.Path} -> Recieving a Request From:{Request.Host.Host}, Query Paramters:{Request.Body} ----------");
+
+            try
+            {
+                var taghreda = await _taghredatElSeraService.CreateTaghredaAsync(taghredatElSeraCreateInputDto);
+                return Created($"api/taghredatelsera/{taghreda.Id}", taghreda);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"Exception: {ex.ToString()}");
+            }
+            return StatusCode(500);
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(string id, [FromBody] TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)
+        {
+            _logger.LogInformation($"---------- PUT {Request.Path} -> Recieving a Request From:{Request.Host.Host}, Query Paramters:{Request.Body} ----------");
+
+            try
+            {
+                var taghreda = await _taghredatElSeraService.GetTaghredaByIdAsync(id);
+                if (taghreda == null)
+                    return NotFound();
+
+                _logger.LogInformation($"---------- Taghreda is Fetched Successfully ----------");
+
+                await _taghredatElSeraService.UpdateTaghredaAsync(taghreda, taghredatElSeraCreateInputDto);
+
+                _logger.LogInformation($"---------- Taghreda is Updated Sucessfully ----------");
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Exception: {ex.ToString()}");
+            }
+            return StatusCode(500);
         }
     }
 }

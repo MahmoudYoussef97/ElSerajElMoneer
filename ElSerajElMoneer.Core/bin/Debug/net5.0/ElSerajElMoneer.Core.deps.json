@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v5.0": {
       "ElSerajElMoneer.Core/1.0.0": {
         "dependencies": {
+          "ElSerajElMoneer.Data": "1.0.0",
           "ElSerajElMoneer.Shared": "1.0.0"
         },
         "runtime": {
           "ElSerajElMoneer.Core.dll": {}
+        }
+      },
+      "ElSerajElMoneer.Data/1.0.0": {
+        "runtime": {
+          "ElSerajElMoneer.Data.dll": {}
         }
       },
       "ElSerajElMoneer.Shared/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "ElSerajElMoneer.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ElSerajElMoneer.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

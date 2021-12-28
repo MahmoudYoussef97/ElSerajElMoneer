@@ -88,9 +88,11 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Client.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Core.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Data.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Shared.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Client.pdb
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Shared.pdb
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Data.pdb
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Core.pdb
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.csproj.AssemblyReference.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.GeneratedMSBuildEditorConfig.editorconfig
@@ -101,9 +103,9 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.MvcApplicationPartsAssemblyInfo.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.RazorAssemblyInfo.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.RazorAssemblyInfo.cs
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/scopedcss/bundle/ElSerajElMoneer.Server.styles.css
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/staticwebassets/ElSerajElMoneer.Server.StaticWebAssets.Manifest.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/staticwebassets/ElSerajElMoneer.Server.StaticWebAssets.xml
-/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/scopedcss/bundle/ElSerajElMoneer.Server.styles.css
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.TagHelpers.input.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.TagHelpers.output.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/obj/Debug/net5.0/ElSerajElMoneer.Server.RazorCoreGenerate.cache

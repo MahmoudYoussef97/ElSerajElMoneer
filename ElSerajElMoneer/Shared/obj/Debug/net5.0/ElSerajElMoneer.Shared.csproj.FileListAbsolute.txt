@@ -9,4 +9,3 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/obj/Debug/net5.0/ElSerajElMoneer.Shared.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/obj/Debug/net5.0/ref/ElSerajElMoneer.Shared.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/obj/Debug/net5.0/ElSerajElMoneer.Shared.pdb
-/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/obj/Debug/net5.0/ElSerajElMoneer.Shared.csproj.AssemblyReference.cache

@@ -6,5 +6,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ElSerajElMoneer\Shared\ElSerajElMoneer.Shared.csproj" />
+    <ProjectReference Include="..\ElSerajElMoneer.Data\ElSerajElMoneer.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Extension\" />
+    <None Remove="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Extension\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 </Project>

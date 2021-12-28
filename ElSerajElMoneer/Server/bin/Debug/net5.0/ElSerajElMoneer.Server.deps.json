@@ -1256,6 +1256,7 @@
       },
       "ElSerajElMoneer.Core/1.0.0": {
         "dependencies": {
+          "ElSerajElMoneer.Data": "1.0.0",
           "ElSerajElMoneer.Shared": "1.0.0"
         },
         "runtime": {
@@ -1263,6 +1264,14 @@
         },
         "compile": {
           "ElSerajElMoneer.Core.dll": {}
+        }
+      },
+      "ElSerajElMoneer.Data/1.0.0": {
+        "runtime": {
+          "ElSerajElMoneer.Data.dll": {}
+        },
+        "compile": {
+          "ElSerajElMoneer.Data.dll": {}
         }
       },
       "ElSerajElMoneer.Shared/1.0.0": {
@@ -3455,6 +3464,11 @@
       "sha512": ""
     },
     "ElSerajElMoneer.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ElSerajElMoneer.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

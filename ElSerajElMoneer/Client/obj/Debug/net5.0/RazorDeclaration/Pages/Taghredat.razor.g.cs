@@ -144,7 +144,7 @@ using System.Text.Json;
        
     private List<TaghredatElSeraResponse> taghredatElSera;
     private MetaDataResponse metaDataResponse;
-    private string downloadUrl = "TaghredatElSera/download";
+    private string downloadUrl = "api/TaghredatElSera/download";
     private int currentPage = 1;
     private int pageSize = 6;
     private bool isFirstPage() => currentPage == 1;

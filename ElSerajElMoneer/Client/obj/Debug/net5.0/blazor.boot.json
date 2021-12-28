@@ -200,13 +200,13 @@
       "netstandard.dll": "sha256-4Ejn1oHpeqmTQlJx7Kjuipn0ZVOoG0hGncN+9qyL1lo=",
       "System.Private.CoreLib.dll": "sha256-7n\/jioZu+\/2tD7v1RgjTTrBrviX+kVwPFGJ\/JBsHQGA=",
       "ElSerajElMoneer.Shared.dll": "sha256-QwSB5ia5g4yJk8na5yOt\/2N3GEjor+haPZMgaDCUrds=",
-      "ElSerajElMoneer.Client.dll": "sha256-pnxuW4hG96TG74oMpmg1KmK+MKWSlUE7E9cYwU1Dht0="
+      "ElSerajElMoneer.Client.dll": "sha256-X7ryZMk9b\/tcydleQRXlPQmBr8IonMhnus5YBQ+RQOI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ElSerajElMoneer.Client.pdb": "sha256-80CF\/WGGwyqN98tpSBXJ7gmBsYS9n35KUyVcE7wd+90="
+      "ElSerajElMoneer.Client.pdb": "sha256-WdTZeYPJKFbNikH8rDqIvQ03V1W8N2r55Gnq+hPlc2k="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Uv0JiOiPEvlGxygIhcdY8XYm\/Nt+zgVckKrqB2uih0w=",
