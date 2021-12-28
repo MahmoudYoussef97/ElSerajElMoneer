@@ -1,15 +1,11 @@
 ﻿<Properties StartupConfiguration="{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ElSerajElMoneer/Client/Pages/Taghredat.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ElSerajElMoneer/Client/Pages/Taghreda.razor">
     <Files>
-      <File FileName="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs" Line="36" Column="61" />
-      <File FileName="ElSerajElMoneer/Client/Pages/Taghredat.razor" Line="502" Column="104" />
-      <File FileName="ElSerajElMoneer/Server/Repositories/TaghredatElSeraRepository.cs" Line="43" Column="10" />
-      <File FileName="ElSerajElMoneer/Server/Extension/PagedList.cs" Line="8" Column="32" />
-      <File FileName="ElSerajElMoneer/Server/Services/ITaghredatElSeraService.cs" />
-      <File FileName="ElSerajElMoneer/Server/Services/TaghredatElSeraService.cs" />
-      <File FileName="ElSerajElMoneer/Shared/TaghredatElSera.cs" />
-      <File FileName="ElSerajElMoneer/Shared/TaghredatElSeraResponse.cs" />
-      <File FileName="ElSerajElMoneer/Server/Dtos/MetaData.cs" />
+      <File FileName="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs" Line="19" Column="17" />
+      <File FileName="ElSerajElMoneer/Client/Pages/Taghredat.razor" Line="531" Column="38" />
+      <File FileName="ElSerajElMoneer/Server/Services/ITaghredatElSeraService.cs" Line="13" Column="67" />
+      <File FileName="ElSerajElMoneer/Server/Services/TaghredatElSeraService.cs" Line="20" Column="80" />
+      <File FileName="ElSerajElMoneer/Client/Pages/Taghreda.razor" Line="480" Column="90" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +13,7 @@
           <Node name="ElSerajElMoneer" expanded="True">
             <Node name="ElSerajElMoneer.Client" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Taghredat.razor" selected="True" />
+                <Node name="Taghreda.razor" selected="True" />
               </Node>
               <Node name="Shared" expanded="True" />
             </Node>

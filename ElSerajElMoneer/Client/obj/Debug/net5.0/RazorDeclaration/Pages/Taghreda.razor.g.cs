@@ -136,7 +136,7 @@ using ElSerajElMoneer.Shared;
     {
         try
         {
-            taghreda = await Http.GetFromJsonAsync<TaghredatElSera>($"TaghredatElSera/{Id}");
+            taghreda = await Http.GetFromJsonAsync<TaghredatElSera>($"api/taghredatelsera/{Id}");
         }
         catch(AccessTokenNotAvailableException exception)
         {

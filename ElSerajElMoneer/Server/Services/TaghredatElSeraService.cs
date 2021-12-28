@@ -17,12 +17,12 @@ namespace ElSerajElMoneer.Core.Services
             _taghredatElSeraRepository = taghredatElSeraRepository;
         }
 
-        public async Task<PagedList<TaghredatElSera>> GetAllTaghredatAsync(TaghredatParametersDto taghredatParametersDto)
+        public async Task<PagedList<TaghredatElSera>> GetAllPagedTaghredatAsync(TaghredatParametersDto taghredatParametersDto)
         {
             return await _taghredatElSeraRepository.GetAllPagedAsync(taghredatParametersDto);
         }
 
-        public async Task<TaghredatElSera> GetTaghredaById(string id)
+        public async Task<TaghredatElSera> GetTaghredaByIdAsync(string id)
         {
             return await _taghredatElSeraRepository.GetById(id);
         }

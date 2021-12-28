@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-CzkYroY3z4gPagkRsLmnxOx5xVllNWAjQGPGN4xB+eg=",
+      "hash": "sha256-EzgzCoPyCO\/0n06zSmdlNXucap8kNV9h4FG5Sj5zAfs=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -813,11 +813,11 @@
       "url": "_framework\/ElSerajElMoneer.Shared.pdb"
     },
     {
-      "hash": "sha256-9DrywwiUr1sNFjCrRQw0pKQeMDhSmfwNCu5PTbYG1V0=",
+      "hash": "sha256-pnxuW4hG96TG74oMpmg1KmK+MKWSlUE7E9cYwU1Dht0=",
       "url": "_framework\/ElSerajElMoneer.Client.dll"
     },
     {
-      "hash": "sha256-vKSRyMYpCWRJZ4ENlDdD\/Xim1DjZxi3XGJD\/wh9tplo=",
+      "hash": "sha256-80CF\/WGGwyqN98tpSBXJ7gmBsYS9n35KUyVcE7wd+90=",
       "url": "_framework\/ElSerajElMoneer.Client.pdb"
     },
     {
@@ -1741,5 +1741,5 @@
       "url": "ElSerajElMoneer.Client.bundle.scp.css"
     }
   ],
-  "version": "gpODLP7o"
+  "version": "6h6\/gliD"
 };

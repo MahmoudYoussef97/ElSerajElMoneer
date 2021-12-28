@@ -16,42 +16,71 @@ namespace ElSerajElMoneer.Server.Controllers
 {
     //[Authorize]
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TaghredatElSeraController : ControllerBase
     {
         private readonly ITaghredatElSeraService _taghredatElSeraService;
         private readonly ILogger<TaghredatElSeraController> _logger;
-        private readonly IWebHostEnvironment _webHostingEnvironment;
         public TaghredatElSeraController(ILogger<TaghredatElSeraController> logger, ITaghredatElSeraService
-            taghredatElSeraService, IWebHostEnvironment webHostingEnvironment)
+            taghredatElSeraService)
         {
             _taghredatElSeraService = taghredatElSeraService;
             _logger = logger;
-            _webHostingEnvironment = webHostingEnvironment;
         }
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] TaghredatParametersDto taghredatParametersDto)
         {
-            var taghredat = await _taghredatElSeraService.GetAllTaghredatAsync(taghredatParametersDto);
-            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(taghredat.MetaData));
-            return Ok(taghredat);
+            _logger.LogInformation($"---------- GET {Request.Path} -> Recieving a Request From:{Request.Host.Host}, Query Paramters:{Request.QueryString.Value} ----------");
+            try
+            {
+                var taghredat = await _taghredatElSeraService.GetAllPagedTaghredatAsync(taghredatParametersDto);
+
+                _logger.LogInformation($"---------- All Taghredat Are Fetched Successfully ----------");
+
+                Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(taghredat.MetaData));
+
+                _logger.LogInformation($"---------- X-Pagination Header Is Applied Succesfully ----------");
+                _logger.LogInformation($"---------- Response Code: 200 OK Succesfully Sent ----------");
+
+                return Ok(taghredat);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"Exception: {ex.ToString()}");
+            }
+            return StatusCode(500);
         }
         [HttpGet("{id}")]
-        public async Task<TaghredatElSera> Get(string id)
+        public async Task<IActionResult> Get(string id)
         {
-            //Build the File Path.
-            var taghreda = await _taghredatElSeraService.GetTaghredaById(id);
-            if (taghreda == null)
-                return null;
+            _logger.LogInformation($"---------- GET {Request.Path} -> Recieving a Request From:{Request.Host.Host} ----------");
 
-            await UpdateCounter(id, "watch");
-            return taghreda;
+            try
+            {
+                var taghreda = await _taghredatElSeraService.GetTaghredaByIdAsync(id);
+                if (taghreda == null)
+                    return BadRequest();
+
+                _logger.LogInformation($"---------- Taghreda is Fetched Succesfully ----------");
+
+                await UpdateCounter(id, "watch");
+
+                _logger.LogInformation($"---------- Watch Counter is Updated ----------");
+                _logger.LogInformation($"---------- Response Code: 200 OK Succesfully Sent ----------");
+
+                return Ok(taghreda);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"Exception: {ex.ToString()}");
+            }
+            return StatusCode(500);
         }
         [HttpPost("updateCounter/{id}")]
         public async Task UpdateCounter(string id, [FromBody] string counterType)
         {
             var counter = GetTypeOfCounter(counterType);
-            await _taghredatElSeraService.UpdateCounter(counter, id);
+            await _taghredatElSeraService.UpdateCounterAsync(counter, id);
         }
         [HttpGet("download/{fileName}")]
         public async Task<IActionResult> Download(string fileName)

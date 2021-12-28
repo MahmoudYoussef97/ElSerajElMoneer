@@ -10,7 +10,7 @@ namespace ElSerajElMoneer.Core.Services
 {
     public interface ITaghredatElSeraService
     {
-        Task<PagedList<TaghredatElSera>> GetAllTaghredatAsync(TaghredatParametersDto taghredatParametersDto);
+        Task<PagedList<TaghredatElSera>> GetAllPagedTaghredatAsync(TaghredatParametersDto taghredatParametersDto);
         Task<TaghredatElSera> GetTaghredaById(string id);
         Task UpdateCounter(Counter counter, string id);
     }

@@ -165,7 +165,7 @@ using System.Text.Json;
     private async Task GetAllTaghredat(int currentPage, int pageSize)
     {
         var response = await Http.GetAsync(
-                $"TaghredatElSera/?pageNumber={currentPage}&pageSize={pageSize}");
+                $"api/taghredatelsera/?pageNumber={currentPage}&pageSize={pageSize}");
 
         var headers = response.Headers;
         metaDataResponse = JsonSerializer.Deserialize<MetaDataResponse>
