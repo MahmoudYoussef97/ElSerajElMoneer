@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using ElSerajElMoneer.Data.Dtos;
 using ElSerajElMoneer.Server.Dtos;
 using ElSerajElMoneer.Server.Extension;
-using ElSerajElMoneer.Shared;
+using ElSerajElMoneer.Data.Models;
 
 namespace ElSerajElMoneer.Core.Repositories
 {
@@ -18,5 +18,6 @@ namespace ElSerajElMoneer.Core.Repositories
         Task UpdateTaghredaAsync(TaghredatElSera oldTaghreda, TaghredatElSeraCreateInputDto updatedTaghreda);
         Task UpdateNumberOfDownloadsByIdAsync(string id);
         Task UpdateNumberOfWatchesByIdAsync(string id);
+        Task DeleteTaghredaAsync(TaghredatElSera taghreda);
     }
 }

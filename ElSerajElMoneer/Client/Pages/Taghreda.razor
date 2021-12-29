@@ -1,7 +1,8 @@
 ﻿@page "/taghredat/{id}"
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
-@using ElSerajElMoneer.Shared
+@using ElSerajElMoneer.Data.Dtos
+
 @attribute [Authorize]
 @inject HttpClient Http
 <style>
@@ -471,13 +472,13 @@
 @code {
     [Parameter]
     public string Id { get; set; }
-    private TaghredatElSera taghreda = new TaghredatElSera();
+    private TaghredatElSeraResponse taghreda = new TaghredatElSeraResponse();
     private string watchUrl;
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            taghreda = await Http.GetFromJsonAsync<TaghredatElSera>($"api/taghredatelsera/{Id}");
+            taghreda = await Http.GetFromJsonAsync<TaghredatElSeraResponse>($"api/taghredatelsera/{Id}");
         }
         catch(AccessTokenNotAvailableException exception)
         {

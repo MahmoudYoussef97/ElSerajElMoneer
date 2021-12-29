@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-Pr7ZW\/0XobsqtvfWkhziGcHRwtzhvuNTcluj2jpCzMU=",
+      "hash": "sha256-B\/toLPBH5rPyYCa7FSERCdJ9l1hDoaU3RbgDBsXN5cg=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -805,19 +805,27 @@
       "url": "_framework\/dotnet.5.0.13.js"
     },
     {
-      "hash": "sha256-QwSB5ia5g4yJk8na5yOt\/2N3GEjor+haPZMgaDCUrds=",
+      "hash": "sha256-H2QWj8ut\/NxKo\/dj9rdX\/s7R0vgO8RcHlkK1lzJCaDA=",
+      "url": "_framework\/ElSerajElMoneer.Data.dll"
+    },
+    {
+      "hash": "sha256-ML4N9HCSq0Ym\/26AVOaxREupFa3UuJe85JpNRneZRBs=",
       "url": "_framework\/ElSerajElMoneer.Shared.dll"
     },
     {
-      "hash": "sha256-pQI2qjNYfxluvep0Rnr0mjW+fBK\/1QKNy0+mPsAJQ+U=",
+      "hash": "sha256-DNp+ltcPm4mNM8sMQvFNEiyITXyGHjR9BnzPJJ8lw\/s=",
+      "url": "_framework\/ElSerajElMoneer.Data.pdb"
+    },
+    {
+      "hash": "sha256-t4Veg57KEGXR2dcNxk4rVpxtFVVyITeZLgqG6s51ZzY=",
       "url": "_framework\/ElSerajElMoneer.Shared.pdb"
     },
     {
-      "hash": "sha256-X7ryZMk9b\/tcydleQRXlPQmBr8IonMhnus5YBQ+RQOI=",
+      "hash": "sha256-hjs0JKiYBTmS97KQj1EwSOLoB2VoA\/8JfObbGFJl468=",
       "url": "_framework\/ElSerajElMoneer.Client.dll"
     },
     {
-      "hash": "sha256-WdTZeYPJKFbNikH8rDqIvQ03V1W8N2r55Gnq+hPlc2k=",
+      "hash": "sha256-BQ069kd6lMrgfHKBYAlxqavW50HnH0ZTHA5StSgo4FE=",
       "url": "_framework\/ElSerajElMoneer.Client.pdb"
     },
     {
@@ -1621,7 +1629,11 @@
       "url": "_framework\/dotnet.5.0.13.js.gz"
     },
     {
-      "hash": "sha256-nyUFIFC1z1qbaHS8L09JKYl0k0poHu69hdGhUlYVV4Y=",
+      "hash": "sha256-NeG775ytjBbHkKh7XJe6Vlb38hlsDOSIDE7L\/YDgfo0=",
+      "url": "_framework\/ElSerajElMoneer.Data.dll.gz"
+    },
+    {
+      "hash": "sha256-uUL16TlMMRKC\/XZrjlPzAdbtySrVu4Mc9Au5fQECF6E=",
       "url": "_framework\/ElSerajElMoneer.Shared.dll.gz"
     },
     {
@@ -1741,5 +1753,5 @@
       "url": "ElSerajElMoneer.Client.bundle.scp.css"
     }
   ],
-  "version": "CgY+mjJ+"
+  "version": "a8DsT5C7"
 };

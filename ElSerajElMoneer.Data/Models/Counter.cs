@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ElSerajElMoneer.Shared
+namespace ElSerajElMoneer.Data.Models
 {
     public enum Counter
     {

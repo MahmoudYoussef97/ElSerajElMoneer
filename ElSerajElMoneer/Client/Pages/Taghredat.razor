@@ -1,10 +1,11 @@
 ﻿@page "/taghredat"
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
-@using ElSerajElMoneer.Shared
-@using Newtonsoft.Json.Linq
 @using System.Text.Json
+@using ElSerajElMoneer.Data.Dtos
+
 @attribute [Authorize]
+
 @inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 @inject HttpClient Http
 

@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ElSerajElMoneer.Data/Models/Counter.cs">
     <Files>
-      <File FileName="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs" Line="137" Column="84" />
-      <File FileName="ElSerajElMoneer/Client/Pages/Taghredat.razor" Line="510" Column="39" />
-      <File FileName="ElSerajElMoneer/Server/Services/ITaghredatElSeraService.cs" Line="17" Column="13" />
-      <File FileName="ElSerajElMoneer/Server/Services/TaghredatElSeraService.cs" Line="50" Column="13" />
-      <File FileName="ElSerajElMoneer/Client/Pages/Taghreda.razor" />
-      <File FileName="ElSerajElMoneer/Server/Startup.cs" Line="1" Column="1" />
-      <File FileName="ElSerajElMoneer.Data/Repositories/ITaghredatElSeraRepository.cs" Line="18" Column="13" />
-      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraRepository.cs" Line="13" Column="54" />
-      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraCreateInputDto.cs" Line="10" Column="23" />
-      <File FileName="ElSerajElMoneer/Shared/TaghredatElSera.cs" Line="13" Column="49" />
-      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatParametersDto.cs" Line="1" Column="1" />
+      <File FileName="ElSerajElMoneer/Client/Pages/Taghreda.razor" Line="4" Column="33" />
+      <File FileName="ElSerajElMoneer/Client/Pages/Taghredat.razor" Line="5" Column="33" />
+      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraResponse.cs" Line="3" Column="2" />
+      <File FileName="ElSerajElMoneer.Data/Models/TaghredatElSera.cs" Line="4" Column="33" />
+      <File FileName="ElSerajElMoneer/Client/Pages/FetchData.razor" Line="4" Column="23" />
+      <File FileName="ElSerajElMoneer.Core/Services/ITaghredatElSeraService.cs" Line="16" Column="14" />
+      <File FileName="ElSerajElMoneer.Core/Repositories/ITaghredatElSeraRepository.cs" Line="9" Column="1" />
+      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraRepository.cs" Line="10" Column="1" />
+      <File FileName="ElSerajElMoneer.Core/Services/TaghredatElSeraService.cs" Line="32" Column="25" />
+      <File FileName="ElSerajElMoneer.Data/Models/Counter.cs" Line="2" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,10 +25,8 @@
             </Node>
             <Node name="ElSerajElMoneer.Data" expanded="True">
               <Node name="Dtos" expanded="True" />
-            </Node>
-            <Node name="ElSerajElMoneer.Server" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="TaghredatElSeraController.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Counter.cs" selected="True" />
               </Node>
             </Node>
             <Node name="ElSerajElMoneer.Shared" expanded="True" />

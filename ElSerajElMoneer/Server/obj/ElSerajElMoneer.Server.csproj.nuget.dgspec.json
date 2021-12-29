@@ -137,6 +137,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Data/ElSerajElMoneer.Data.csproj": {
+                "projectPath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Data/ElSerajElMoneer.Data.csproj"
+              },
               "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj": {
                 "projectPath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/ElSerajElMoneer.Shared.csproj"
               }

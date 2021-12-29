@@ -207,6 +207,7 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/icudt_EFIGS.dat.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/icudt_no_CJK.dat.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/dotnet.5.0.13.js.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Data.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Shared.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll
@@ -407,7 +408,9 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/icudt_EFIGS.dat
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/icudt_no_CJK.dat
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/dotnet.5.0.13.js
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Data.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Shared.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Data.pdb
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Shared.pdb
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/ElSerajElMoneer.Client.csproj.AssemblyReference.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/ElSerajElMoneer.Client.GeneratedMSBuildEditorConfig.editorconfig
@@ -646,6 +649,7 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/+sVDl+45.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/hBYpTozv.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/lNNLfJjn.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/J3ax+lnq.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/7ER48qyg.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css

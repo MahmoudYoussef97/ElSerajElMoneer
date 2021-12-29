@@ -144,5 +144,29 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500);
         }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(string id)
+        {
+            _logger.LogInformation($"---------- DELETE {Request.Path} -> Recieving a Request From:{Request.Host.Host} ----------");
+            try
+            {
+                var taghreda = await _taghredatElSeraService.GetTaghredaByIdAsync(id);
+                if (taghreda == null)
+                    return NotFound();
+
+                _logger.LogInformation($"---------- Taghreda is Fetched Successfully ----------");
+
+                await _taghredatElSeraService.DeleteTaghredaAsync(taghreda);
+
+                _logger.LogInformation($"---------- Taghreda is Deleted Successfully ----------");
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Exception: {ex.ToString()}");
+            }
+            return StatusCode(500);
+        }
     }
 }

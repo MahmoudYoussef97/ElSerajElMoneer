@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using ElSerajElMoneer.Data.Dtos;
 using ElSerajElMoneer.Server.Dtos;
 using ElSerajElMoneer.Server.Extension;
-using ElSerajElMoneer.Shared;
+using ElSerajElMoneer.Data.Models;
 
 namespace ElSerajElMoneer.Core.Repositories
 {
@@ -80,6 +80,11 @@ namespace ElSerajElMoneer.Core.Repositories
             oldTaghreda.WatchUrl = updatedTaghreda.WatchUrl;
             oldTaghreda.Duration = updatedTaghreda.Duration;
             oldTaghreda.Title = updatedTaghreda.Title;
+        }
+
+        public async Task DeleteTaghredaAsync(TaghredatElSera taghreda)
+        {
+            taghredatElSeras.Remove(taghreda);
         }
     }
 }

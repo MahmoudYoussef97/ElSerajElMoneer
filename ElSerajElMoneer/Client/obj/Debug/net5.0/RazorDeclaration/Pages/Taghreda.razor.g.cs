@@ -105,13 +105,13 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 #nullable disable
 #nullable restore
 #line 4 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghreda.razor"
-using ElSerajElMoneer.Shared;
+using ElSerajElMoneer.Data.Dtos;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghreda.razor"
+#line 6 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghreda.razor"
            [Authorize]
 
 #line default
@@ -126,17 +126,17 @@ using ElSerajElMoneer.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 471 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghreda.razor"
+#line 472 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghreda.razor"
        
     [Parameter]
     public string Id { get; set; }
-    private TaghredatElSera taghreda = new TaghredatElSera();
+    private TaghredatElSeraResponse taghreda = new TaghredatElSeraResponse();
     private string watchUrl;
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            taghreda = await Http.GetFromJsonAsync<TaghredatElSera>($"api/taghredatelsera/{Id}");
+            taghreda = await Http.GetFromJsonAsync<TaghredatElSeraResponse>($"api/taghredatelsera/{Id}");
         }
         catch(AccessTokenNotAvailableException exception)
         {

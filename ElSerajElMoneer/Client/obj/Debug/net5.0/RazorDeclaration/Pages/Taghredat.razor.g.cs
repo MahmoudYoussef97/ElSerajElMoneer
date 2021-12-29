@@ -105,21 +105,14 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 #nullable disable
 #nullable restore
 #line 4 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghredat.razor"
-using ElSerajElMoneer.Shared;
+using System.Text.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghredat.razor"
-using Newtonsoft.Json.Linq;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 6 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghredat.razor"
-using System.Text.Json;
+using ElSerajElMoneer.Data.Dtos;
 
 #line default
 #line hidden
@@ -140,7 +133,7 @@ using System.Text.Json;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 507 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghredat.razor"
+#line 508 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Taghredat.razor"
        
     private List<TaghredatElSeraResponse> taghredatElSera;
     private MetaDataResponse metaDataResponse;

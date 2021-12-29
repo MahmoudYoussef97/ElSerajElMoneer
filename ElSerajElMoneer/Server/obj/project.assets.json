@@ -1077,6 +1077,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "ElSerajElMoneer.Data": "1.0.0",
           "ElSerajElMoneer.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.11",
           "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "5.0.11",

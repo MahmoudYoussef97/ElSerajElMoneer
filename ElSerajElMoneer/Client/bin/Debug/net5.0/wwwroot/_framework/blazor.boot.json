@@ -199,15 +199,17 @@
       "mscorlib.dll": "sha256-0qsbc1acYr3S6P7t9gSYyghOhMVs3CTJ9ukQ1VXqksY=",
       "netstandard.dll": "sha256-4Ejn1oHpeqmTQlJx7Kjuipn0ZVOoG0hGncN+9qyL1lo=",
       "System.Private.CoreLib.dll": "sha256-7n\/jioZu+\/2tD7v1RgjTTrBrviX+kVwPFGJ\/JBsHQGA=",
-      "ElSerajElMoneer.Shared.dll": "sha256-QwSB5ia5g4yJk8na5yOt\/2N3GEjor+haPZMgaDCUrds=",
-      "ElSerajElMoneer.Client.dll": "sha256-X7ryZMk9b\/tcydleQRXlPQmBr8IonMhnus5YBQ+RQOI="
+      "ElSerajElMoneer.Data.dll": "sha256-H2QWj8ut\/NxKo\/dj9rdX\/s7R0vgO8RcHlkK1lzJCaDA=",
+      "ElSerajElMoneer.Shared.dll": "sha256-ML4N9HCSq0Ym\/26AVOaxREupFa3UuJe85JpNRneZRBs=",
+      "ElSerajElMoneer.Client.dll": "sha256-hjs0JKiYBTmS97KQj1EwSOLoB2VoA\/8JfObbGFJl468="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ElSerajElMoneer.Shared.pdb": "sha256-pQI2qjNYfxluvep0Rnr0mjW+fBK\/1QKNy0+mPsAJQ+U=",
-      "ElSerajElMoneer.Client.pdb": "sha256-WdTZeYPJKFbNikH8rDqIvQ03V1W8N2r55Gnq+hPlc2k="
+      "ElSerajElMoneer.Data.pdb": "sha256-DNp+ltcPm4mNM8sMQvFNEiyITXyGHjR9BnzPJJ8lw\/s=",
+      "ElSerajElMoneer.Shared.pdb": "sha256-t4Veg57KEGXR2dcNxk4rVpxtFVVyITeZLgqG6s51ZzY=",
+      "ElSerajElMoneer.Client.pdb": "sha256-BQ069kd6lMrgfHKBYAlxqavW50HnH0ZTHA5StSgo4FE="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Uv0JiOiPEvlGxygIhcdY8XYm\/Nt+zgVckKrqB2uih0w=",
