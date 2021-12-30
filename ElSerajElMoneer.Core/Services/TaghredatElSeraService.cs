@@ -22,14 +22,27 @@ namespace ElSerajElMoneer.Core.Services
         {
             return await _taghredatElSeraRepository.GetAllPagedAsync(taghredatParametersDto);
         }
-
+        public async Task<IEnumerable<TaghredatElSera>> GetAllAsync()
+        {
+            return await _taghredatElSeraRepository.GetAllAsync();
+        }
         public async Task<TaghredatElSera> GetTaghredaByIdAsync(string id)
         {
             return await _taghredatElSeraRepository.GetById(id);
         }
         public async Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)
         {
-            return await _taghredatElSeraRepository.CreateTaghredaAsync(taghredatElSeraCreateInputDto);
+            var newTaghreda = new TaghredatElSera
+            {
+                Title = taghredatElSeraCreateInputDto.Title,
+                Description = taghredatElSeraCreateInputDto.Description,
+                DownloadUrl = taghredatElSeraCreateInputDto.DownloadUrl,
+                WatchUrl = taghredatElSeraCreateInputDto.WatchUrl,
+                Duration = taghredatElSeraCreateInputDto.Duration,
+                NumberOfDownloads = 0,
+                NumberOfWatches = 0
+            };
+            return await _taghredatElSeraRepository.CreateTaghredaAsync(newTaghreda);
         }
         public async Task UpdateCounterAsync(string counterType, string id)
         {

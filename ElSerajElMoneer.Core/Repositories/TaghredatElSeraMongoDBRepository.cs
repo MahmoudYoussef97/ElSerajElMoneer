@@ -19,55 +19,60 @@ namespace ElSerajElMoneer.Core.Repositories
 
             _taghredat = database.GetCollection<TaghredatElSera>(settings.TaghredatCollectionName);
         }
-        public async Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)
+        public async Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSera taghreda)
         {
-            var newTaghreda = new TaghredatElSera
-            {
-                Title = taghredatElSeraCreateInputDto.Title,
-                Description = taghredatElSeraCreateInputDto.Description,
-                DownloadUrl = taghredatElSeraCreateInputDto.DownloadUrl,
-                WatchUrl = taghredatElSeraCreateInputDto.WatchUrl,
-                Duration = taghredatElSeraCreateInputDto.Duration,
-                NumberOfDownloads = 0,
-                NumberOfWatches = 0
-            };
-            await _taghredat.InsertOneAsync(newTaghreda);
-            return newTaghreda;
+            await _taghredat.InsertOneAsync(taghreda);
+            return taghreda;
         }
 
-        public Task DeleteTaghredaAsync(TaghredatElSera taghreda)
+        public async Task DeleteTaghredaAsync(TaghredatElSera taghreda)
         {
-            throw new NotImplementedException();
+            await _taghredat.DeleteOneAsync(t => t.Id == taghreda.Id);
         }
 
-        public Task<IEnumerable<TaghredatElSera>> GetAllAsync()
+        public async Task<IEnumerable<TaghredatElSera>> GetAllAsync()
         {
-            throw new NotImplementedException();
-        }
+            return await _taghredat.Find<TaghredatElSera>(t => true).ToListAsync();
+;        }
 
         public Task<PagedList<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto)
         {
             throw new NotImplementedException();
         }
 
-        public Task<TaghredatElSera> GetById(string id)
+        public async Task<TaghredatElSera> GetById(string id)
         {
-            throw new NotImplementedException();
+            return await _taghredat.Find(t => t.Id == id).FirstOrDefaultAsync();
         }
 
-        public Task UpdateNumberOfDownloadsByIdAsync(string id)
+        public async Task UpdateNumberOfDownloadsByIdAsync(string id)
         {
-            throw new NotImplementedException();
+            var taghreda = await GetById(id);
+            taghreda.NumberOfDownloads+=1;
+            await _taghredat.ReplaceOneAsync(t => t.Id == id, taghreda);
         }
 
-        public Task UpdateNumberOfWatchesByIdAsync(string id)
+        public async Task UpdateNumberOfWatchesByIdAsync(string id)
         {
-            throw new NotImplementedException();
+            var taghreda = await GetById(id);
+            taghreda.NumberOfWatches += 1;
+            await _taghredat.ReplaceOneAsync(t => t.Id == id, taghreda);
         }
 
-        public Task UpdateTaghredaAsync(TaghredatElSera oldTaghreda, TaghredatElSeraCreateInputDto updatedTaghreda)
+        public async Task UpdateTaghredaAsync(TaghredatElSera oldTaghreda, TaghredatElSeraCreateInputDto updatedTaghredaInput)
         {
-            throw new NotImplementedException();
+            var updatedTaghreda = new TaghredatElSera
+            {
+                Id = oldTaghreda.Id,
+                Description = updatedTaghredaInput.Description,
+                DownloadUrl = updatedTaghredaInput.DownloadUrl,
+                WatchUrl = updatedTaghredaInput.WatchUrl,
+                Duration = updatedTaghredaInput.Duration,
+                Title = updatedTaghredaInput.Title,
+                NumberOfDownloads = oldTaghreda.NumberOfDownloads,
+                NumberOfWatches = oldTaghreda.NumberOfWatches
+            };
+            await _taghredat.ReplaceOneAsync(t => t.Id == oldTaghreda.Id, updatedTaghreda);
         }
     }
 }

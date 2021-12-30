@@ -34,7 +34,8 @@ namespace ElSerajElMoneer.Server.Controllers
             _logger.LogInformation($"---------- GET {Request.Path} -> Recieving a Request From:{Request.Host.Host}, Query Paramters:{Request.QueryString.Value} ----------");
             try
             {
-                var taghredat = await _taghredatElSeraService.GetAllPagedTaghredatAsync(taghredatParametersDto);
+                //var taghredat = await _taghredatElSeraService.GetAllPagedTaghredatAsync(taghredatParametersDto);
+                var taghredat = await _taghredatElSeraService.GetAllAsync();
 
                 _logger.LogInformation($"---------- All Taghredat Are Fetched Successfully ----------");
 

@@ -14,7 +14,7 @@ namespace ElSerajElMoneer.Core.Repositories
         Task<IEnumerable<TaghredatElSera>> GetAllAsync();
         Task<PagedList<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto);
         Task<TaghredatElSera> GetById(string id);
-        Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto);
+        Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSera taghreda);
         Task UpdateTaghredaAsync(TaghredatElSera oldTaghreda, TaghredatElSeraCreateInputDto updatedTaghreda);
         Task UpdateNumberOfDownloadsByIdAsync(string id);
         Task UpdateNumberOfWatchesByIdAsync(string id);
