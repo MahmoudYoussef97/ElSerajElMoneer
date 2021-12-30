@@ -12,6 +12,8 @@ using ElSerajElMoneer.Server.Data;
 using ElSerajElMoneer.Server.Models;
 using ElSerajElMoneer.Core.Services;
 using ElSerajElMoneer.Core.Repositories;
+using ElSerajElMoneer.Data.Models;
+using Microsoft.Extensions.Options;
 
 namespace ElSerajElMoneer.Server
 {
@@ -33,6 +35,13 @@ namespace ElSerajElMoneer.Server
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
+            services.Configure<ElSerajElMoneerDatabaseSettings>(
+    Configuration.GetSection(nameof(ElSerajElMoneerDatabaseSettings)));
+
+            services.AddSingleton<IElSerajElMoneerDatabaseSettings>(sp =>
+                sp.GetRequiredService<IOptions<ElSerajElMoneerDatabaseSettings>>().Value);
+
+            
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -44,8 +53,8 @@ namespace ElSerajElMoneer.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
-            services.AddSingleton<ITaghredatElSeraRepository, TaghredatElSeraRepository>();
-            services.AddScoped<ITaghredatElSeraService, TaghredatElSeraService>();
+            services.AddSingleton<ITaghredatElSeraRepository, TaghredatElSeraMongoDBRepository>();
+            services.AddSingleton<ITaghredatElSeraService, TaghredatElSeraService>();
 
         }
 

@@ -8,6 +8,7 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Client.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Client.pdb
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/blazor.webassembly.js
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/DnsClient.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz
@@ -33,7 +34,12 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Bson.dll.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Driver.dll.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Driver.Core.dll.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Libmongocrypt.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/SharpCompress.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll.gz
@@ -209,6 +215,7 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/dotnet.5.0.13.js.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Data.dll.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/ElSerajElMoneer.Shared.dll.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/DnsClient.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll
@@ -234,7 +241,12 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Bson.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Driver.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Driver.Core.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/MongoDB.Libmongocrypt.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/SharpCompress.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll
@@ -450,6 +462,7 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/6v+J6d+F.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/QhoNkhw5.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/YbxvqLkN.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/kXksgWAY.gz
@@ -475,7 +488,12 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/+oRfD8dN.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/PQrd+rn8.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/QOEmTXvs.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/i6vAuZCV.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/+Zh+Z55k.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/+xM2x+7y.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/QldfCzFL.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/hlo3CyWR.gz
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/ohgJ5lYW.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/vtGGku6k.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/vz+EbWD1.gz
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/obj/Debug/net5.0/build-gz/zEpWpsoj.gz

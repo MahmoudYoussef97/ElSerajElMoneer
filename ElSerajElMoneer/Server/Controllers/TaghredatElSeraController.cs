@@ -51,7 +51,7 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500);
         }
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "GetTaghreda")]
         public async Task<IActionResult> Get(string id)
         {
             _logger.LogInformation($"---------- GET {Request.Path} -> Recieving a Request From:{Request.Host.Host} ----------");
@@ -110,14 +110,24 @@ namespace ElSerajElMoneer.Server.Controllers
 
             try
             {
+                if (taghredatElSeraCreateInputDto == null)
+                {
+                    _logger.LogError($"---------- TAGHREDA SENT FROM CLIENT IS NULL ----------");
+                    return BadRequest();
+                }
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError($"---------- INVALID TAGHREDA SENT FROM CLIENT ----------");
+                    return BadRequest();
+                }
                 var taghreda = await _taghredatElSeraService.CreateTaghredaAsync(taghredatElSeraCreateInputDto);
-                return Created($"api/taghredatelsera/{taghreda.Id}", taghreda);
+                return CreatedAtRoute("GetTaghreda", new { id = taghreda.Id.ToString() }, taghreda);
             }
             catch(Exception ex)
             {
                 _logger.LogError($"Exception: {ex.ToString()}");
             }
-            return StatusCode(500);
+            return StatusCode(500, "Internal Server Error");
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)

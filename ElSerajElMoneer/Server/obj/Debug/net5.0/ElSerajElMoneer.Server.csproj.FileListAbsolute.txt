@@ -21,6 +21,7 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Server.Views.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/ElSerajElMoneer.Server.Views.pdb
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/AutoMapper.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/DnsClient.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/Humanizer.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/IdentityModel.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/IdentityServer4.dll
@@ -65,7 +66,12 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/Microsoft.JSInterop.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/MongoDB.Bson.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/MongoDB.Driver.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/MongoDB.Driver.Core.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/SharpCompress.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/SQLitePCLRaw.core.dll
@@ -73,6 +79,16 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/System.IO.Pipelines.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/linux/native/libsnappy64.so
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/linux/native/libzstd.so
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/osx/native/libsnappy64.dylib
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/osx/native/libzstd.dylib
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/win/native/snappy32.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/win/native/snappy64.dll
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so

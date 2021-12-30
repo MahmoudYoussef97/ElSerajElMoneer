@@ -5,8 +5,12 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-B\/toLPBH5rPyYCa7FSERCdJ9l1hDoaU3RbgDBsXN5cg=",
+      "hash": "sha256-Vqi0dqiSY2um78mJd0XhR2zMeWor9WPySicTisEuxcw=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-gWqxqdNWccOfJcbLM+dhjMNj1xkEDo+YNJiZkDQnEGs=",
+      "url": "_framework\/DnsClient.dll"
     },
     {
       "hash": "sha256-ktaWu1p6pD2yy7T\/20KVYU7oihmpYm3jrPw4QHb7J+k=",
@@ -109,8 +113,28 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
+      "hash": "sha256-CaWTvM+eDVJY7yaY+wjW06T65hjok7TPqt0QgMnCr6I=",
+      "url": "_framework\/MongoDB.Bson.dll"
+    },
+    {
+      "hash": "sha256-oRHvMHblffrMvscVLxUS14Zme6BOAzL9DFS0Rh6vVvM=",
+      "url": "_framework\/MongoDB.Driver.dll"
+    },
+    {
+      "hash": "sha256-zcOO3XpcY\/TM92l9Op17ugd5NZgvttSpLbn4HZFmpPA=",
+      "url": "_framework\/MongoDB.Driver.Core.dll"
+    },
+    {
+      "hash": "sha256-TaK3VRk+NmCEevU0XWGzE\/ID1QBZ5uXyy2DtD6WL54Q=",
+      "url": "_framework\/MongoDB.Libmongocrypt.dll"
+    },
+    {
       "hash": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
       "url": "_framework\/Newtonsoft.Json.dll"
+    },
+    {
+      "hash": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
+      "url": "_framework\/SharpCompress.dll"
     },
     {
       "hash": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
@@ -805,7 +829,7 @@
       "url": "_framework\/dotnet.5.0.13.js"
     },
     {
-      "hash": "sha256-H2QWj8ut\/NxKo\/dj9rdX\/s7R0vgO8RcHlkK1lzJCaDA=",
+      "hash": "sha256-toUd5vtVjBpIJWS3Wtzyy\/UJh0XvXdixDVfUEJzKqog=",
       "url": "_framework\/ElSerajElMoneer.Data.dll"
     },
     {
@@ -813,7 +837,7 @@
       "url": "_framework\/ElSerajElMoneer.Shared.dll"
     },
     {
-      "hash": "sha256-DNp+ltcPm4mNM8sMQvFNEiyITXyGHjR9BnzPJJ8lw\/s=",
+      "hash": "sha256-xDUHe\/DOhIXcaue+ipB\/Uv9jT6FsCWrW63o8X0ptl+0=",
       "url": "_framework\/ElSerajElMoneer.Data.pdb"
     },
     {
@@ -821,16 +845,20 @@
       "url": "_framework\/ElSerajElMoneer.Shared.pdb"
     },
     {
-      "hash": "sha256-hjs0JKiYBTmS97KQj1EwSOLoB2VoA\/8JfObbGFJl468=",
+      "hash": "sha256-r0kjAPWNUdjEM6HqfuU7WPiF23ZFjZtC4QwWsZXtjsc=",
       "url": "_framework\/ElSerajElMoneer.Client.dll"
     },
     {
-      "hash": "sha256-BQ069kd6lMrgfHKBYAlxqavW50HnH0ZTHA5StSgo4FE=",
+      "hash": "sha256-2dUp3VLrVEciAWLxTIj\/DqVUGNTDguyloA6PBQM8+lM=",
       "url": "_framework\/ElSerajElMoneer.Client.pdb"
     },
     {
       "hash": "sha256-dl8FVRvWOJfOtzIC\/x66QNnBNsT9cAOMrn22GB8fJ8U=",
       "url": "_framework\/blazor.webassembly.js"
+    },
+    {
+      "hash": "sha256-ThIXATzvHuwb8gnEwF81cOeF0\/XGuf6GsekJccadlAc=",
+      "url": "_framework\/DnsClient.dll.gz"
     },
     {
       "hash": "sha256-9iepqppifIBkMoPvCbiPbUueSiDe53RKC8xcJU+VlbE=",
@@ -933,8 +961,28 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
+      "hash": "sha256-PGL48L53tPBHkvEyIZ1ER5zM6gQ4L0ZHxp02X7xThFU=",
+      "url": "_framework\/MongoDB.Bson.dll.gz"
+    },
+    {
+      "hash": "sha256-KfJcbVV8ZxEN1NHNJMZ1NR8Ja5XvPzHUmVG2p4lgX3o=",
+      "url": "_framework\/MongoDB.Driver.dll.gz"
+    },
+    {
+      "hash": "sha256-9d2au58zVdS32P175R8+VIa95oMuM\/gmX4seDT2gQyQ=",
+      "url": "_framework\/MongoDB.Driver.Core.dll.gz"
+    },
+    {
+      "hash": "sha256-H1wk2hPLCIooapS24GgeFEq7OTfSMwM6qIljbzzm2oI=",
+      "url": "_framework\/MongoDB.Libmongocrypt.dll.gz"
+    },
+    {
       "hash": "sha256-QFRjz\/s4O7nP6m8uM3Qt2Q4UoZTUGGIrhEC8gqRRXLc=",
       "url": "_framework\/Newtonsoft.Json.dll.gz"
+    },
+    {
+      "hash": "sha256-J6jmkt8eQUnTNCEU7IbQbhpyX6m1dni7enn1N4WXv2Y=",
+      "url": "_framework\/SharpCompress.dll.gz"
     },
     {
       "hash": "sha256-Oo2PR\/8iIaYz96jk5MaPhnVUyOhGz0xZyM2B1kdbT68=",
@@ -1629,7 +1677,7 @@
       "url": "_framework\/dotnet.5.0.13.js.gz"
     },
     {
-      "hash": "sha256-NeG775ytjBbHkKh7XJe6Vlb38hlsDOSIDE7L\/YDgfo0=",
+      "hash": "sha256-JK6P3OiYPD8q2rB9Sa2gkXLFPzAqQKSSe+u4bLXBwqY=",
       "url": "_framework\/ElSerajElMoneer.Data.dll.gz"
     },
     {
@@ -1753,5 +1801,5 @@
       "url": "ElSerajElMoneer.Client.bundle.scp.css"
     }
   ],
-  "version": "a8DsT5C7"
+  "version": "C+6D8cgU"
 };

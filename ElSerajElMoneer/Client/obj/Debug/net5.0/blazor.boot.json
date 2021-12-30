@@ -7,6 +7,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "DnsClient.dll": "sha256-gWqxqdNWccOfJcbLM+dhjMNj1xkEDo+YNJiZkDQnEGs=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-ktaWu1p6pD2yy7T\/20KVYU7oihmpYm3jrPw4QHb7J+k=",
       "Microsoft.AspNetCore.Components.dll": "sha256-alrtyx++CQU1VO\/6akeZFBPsYgrGGm+Z5ax9\/kaPM3k=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-hSnqbPyjGte1HezAKhUEQ7nToMTfVzY1MwL7WlthxwA=",
@@ -32,7 +33,12 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-f2PgoftqEkKRuuiAk6S1MHygOuqZBHzB0HOB3vR93TU=",
       "Microsoft.JSInterop.dll": "sha256-2U21ELz08tKryAM9mMlyuFaZZyvZAS03M1ZyL\/T\/YyA=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-yqSzPJFI4ilEEeghuXNKtT9syg7UPckEK7mF53UyxM4=",
+      "MongoDB.Bson.dll": "sha256-CaWTvM+eDVJY7yaY+wjW06T65hjok7TPqt0QgMnCr6I=",
+      "MongoDB.Driver.dll": "sha256-oRHvMHblffrMvscVLxUS14Zme6BOAzL9DFS0Rh6vVvM=",
+      "MongoDB.Driver.Core.dll": "sha256-zcOO3XpcY\/TM92l9Op17ugd5NZgvttSpLbn4HZFmpPA=",
+      "MongoDB.Libmongocrypt.dll": "sha256-TaK3VRk+NmCEevU0XWGzE\/ID1QBZ5uXyy2DtD6WL54Q=",
       "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "SharpCompress.dll": "sha256-g6OkB2E3tHVhjYz074TwY\/qKeHk14HgEWYjivSizy68=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
       "Microsoft.CSharp.dll": "sha256-470oOFeTcRuThu3PEDt5u3Q4LZR0TiwPY8yHWlK+L0M=",
       "Microsoft.VisualBasic.Core.dll": "sha256-KqB1i7FCaZd3eTSAlNF7cOaUu+BkIp+gAjvFezBQmBI=",
@@ -199,15 +205,15 @@
       "mscorlib.dll": "sha256-0qsbc1acYr3S6P7t9gSYyghOhMVs3CTJ9ukQ1VXqksY=",
       "netstandard.dll": "sha256-4Ejn1oHpeqmTQlJx7Kjuipn0ZVOoG0hGncN+9qyL1lo=",
       "System.Private.CoreLib.dll": "sha256-7n\/jioZu+\/2tD7v1RgjTTrBrviX+kVwPFGJ\/JBsHQGA=",
-      "ElSerajElMoneer.Data.dll": "sha256-H2QWj8ut\/NxKo\/dj9rdX\/s7R0vgO8RcHlkK1lzJCaDA=",
+      "ElSerajElMoneer.Data.dll": "sha256-toUd5vtVjBpIJWS3Wtzyy\/UJh0XvXdixDVfUEJzKqog=",
       "ElSerajElMoneer.Shared.dll": "sha256-ML4N9HCSq0Ym\/26AVOaxREupFa3UuJe85JpNRneZRBs=",
-      "ElSerajElMoneer.Client.dll": "sha256-hjs0JKiYBTmS97KQj1EwSOLoB2VoA\/8JfObbGFJl468="
+      "ElSerajElMoneer.Client.dll": "sha256-r0kjAPWNUdjEM6HqfuU7WPiF23ZFjZtC4QwWsZXtjsc="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ElSerajElMoneer.Client.pdb": "sha256-BQ069kd6lMrgfHKBYAlxqavW50HnH0ZTHA5StSgo4FE="
+      "ElSerajElMoneer.Client.pdb": "sha256-2dUp3VLrVEciAWLxTIj\/DqVUGNTDguyloA6PBQM8+lM="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Uv0JiOiPEvlGxygIhcdY8XYm\/Nt+zgVckKrqB2uih0w=",
