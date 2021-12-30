@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-Vqi0dqiSY2um78mJd0XhR2zMeWor9WPySicTisEuxcw=",
+      "hash": "sha256-0MK97Kmg9+RGxzgfKb\/jCboKsfWcE8DI+nJcxOtbAnc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -833,7 +833,7 @@
       "url": "_framework\/ElSerajElMoneer.Data.dll"
     },
     {
-      "hash": "sha256-ML4N9HCSq0Ym\/26AVOaxREupFa3UuJe85JpNRneZRBs=",
+      "hash": "sha256-2AV3kFxQGYxmZ6oy3lvRx6xiTwizdVAa0Aujfdu1BQY=",
       "url": "_framework\/ElSerajElMoneer.Shared.dll"
     },
     {
@@ -841,15 +841,15 @@
       "url": "_framework\/ElSerajElMoneer.Data.pdb"
     },
     {
-      "hash": "sha256-t4Veg57KEGXR2dcNxk4rVpxtFVVyITeZLgqG6s51ZzY=",
+      "hash": "sha256-6hMoGohhwfF8EPM22H\/ZaGDKGllWqXBEfZvMrTK4yX8=",
       "url": "_framework\/ElSerajElMoneer.Shared.pdb"
     },
     {
-      "hash": "sha256-r0kjAPWNUdjEM6HqfuU7WPiF23ZFjZtC4QwWsZXtjsc=",
+      "hash": "sha256-hJaMgHpnK1vgyZxHOfw114D55yFZaMGyVNZ7cvoyJXo=",
       "url": "_framework\/ElSerajElMoneer.Client.dll"
     },
     {
-      "hash": "sha256-2dUp3VLrVEciAWLxTIj\/DqVUGNTDguyloA6PBQM8+lM=",
+      "hash": "sha256-3vEG8qZFREdGb0mCd+eso9+q49oSc7USUf2c7KeGxwA=",
       "url": "_framework\/ElSerajElMoneer.Client.pdb"
     },
     {
@@ -1681,7 +1681,7 @@
       "url": "_framework\/ElSerajElMoneer.Data.dll.gz"
     },
     {
-      "hash": "sha256-uUL16TlMMRKC\/XZrjlPzAdbtySrVu4Mc9Au5fQECF6E=",
+      "hash": "sha256-3kOLHaW5SfhxRsh7KN4AmDoach2i60uATxvYwOOoCF4=",
       "url": "_framework\/ElSerajElMoneer.Shared.dll.gz"
     },
     {
@@ -1801,5 +1801,5 @@
       "url": "ElSerajElMoneer.Client.bundle.scp.css"
     }
   ],
-  "version": "C+6D8cgU"
+  "version": "Y+sBNj9P"
 };

@@ -39,7 +39,7 @@ namespace ElSerajElMoneer.Server.Controllers
 
                 _logger.LogInformation($"---------- All Taghredat Are Fetched Successfully ----------");
 
-                Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(taghredat.MetaData));
+                //Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(taghredat.MetaData));
 
                 _logger.LogInformation($"---------- X-Pagination Header Is Applied Succesfully ----------");
                 _logger.LogInformation($"---------- Response Code: 200 OK Succesfully Sent ----------");

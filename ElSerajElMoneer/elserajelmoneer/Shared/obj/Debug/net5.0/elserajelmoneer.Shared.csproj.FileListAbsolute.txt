@@ -1,0 +1,11 @@
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/bin/Debug/net5.0/elserajelmoneer.Shared.deps.json
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/bin/Debug/net5.0/elserajelmoneer.Shared.dll
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/bin/Debug/net5.0/ref/elserajelmoneer.Shared.dll
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/bin/Debug/net5.0/elserajelmoneer.Shared.pdb
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/obj/Debug/net5.0/elserajelmoneer.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/obj/Debug/net5.0/elserajelmoneer.Shared.AssemblyInfoInputs.cache
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/obj/Debug/net5.0/elserajelmoneer.Shared.AssemblyInfo.cs
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/obj/Debug/net5.0/elserajelmoneer.Shared.csproj.CoreCompileInputs.cache
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/obj/Debug/net5.0/elserajelmoneer.Shared.dll
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/obj/Debug/net5.0/ref/elserajelmoneer.Shared.dll
+/Users/mahyoussef/projects/elserajelmoneer/elserajelmoneer/Shared/obj/Debug/net5.0/elserajelmoneer.Shared.pdb

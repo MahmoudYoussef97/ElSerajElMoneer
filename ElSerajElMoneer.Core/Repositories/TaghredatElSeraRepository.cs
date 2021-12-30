@@ -46,21 +46,11 @@ namespace ElSerajElMoneer.Core.Repositories
         {
             return taghredatElSeras.Find(t => t.Id == id);
         }
-        public async Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)
+        public async Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSera taghreda)
         {
-            string taghredaId = Guid.NewGuid().ToString();
-            taghredatElSeras.Add(new TaghredatElSera
-            {
-                Id = taghredaId,
-                Title = taghredatElSeraCreateInputDto.Title,
-                Description = taghredatElSeraCreateInputDto.Description,
-                DownloadUrl = taghredatElSeraCreateInputDto.DownloadUrl+taghredaId,
-                WatchUrl = taghredatElSeraCreateInputDto.WatchUrl,
-                Duration = taghredatElSeraCreateInputDto.Duration,
-                NumberOfDownloads = 0,
-                NumberOfWatches = 0
-            });
-            return taghredatElSeras.FirstOrDefault(t => t.Id == taghredaId);
+            taghreda.Id = Guid.NewGuid().ToString();
+            taghredatElSeras.Add(taghreda);
+            return taghreda;
         }
         public async Task UpdateNumberOfDownloadsByIdAsync(string id)
         {

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Server", "ElSerajElMoneer\Server\ElSerajElMoneer.Server.csproj", "{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Client", "ElSerajElMoneer\Client\ElSerajElMoneer.Client.csproj", "{870B920F-652C-4948-95F0-A1FCC6745A90}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Shared", "ElSerajElMoneer\Shared\ElSerajElMoneer.Shared.csproj", "{7A7E145D-6530-4C16-854E-A3CEE2A02C25}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Core", "ElSerajElMoneer.Core\ElSerajElMoneer.Core.csproj", "{E1A4D88B-B594-4DEA-B414-B5C253B4F37A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Data", "ElSerajElMoneer.Data\ElSerajElMoneer.Data.csproj", "{F877FC27-1E82-45D7-8B42-078C3452FE90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Server", "ElSerajElMoneer\Server\ElSerajElMoneer.Server.csproj", "{D7E752CB-7003-46EC-9250-1D221E96B5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Client", "ElSerajElMoneer\Client\ElSerajElMoneer.Client.csproj", "{5691578D-C25A-4939-9916-A5E062391B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElSerajElMoneer.Shared", "ElSerajElMoneer\Shared\ElSerajElMoneer.Shared.csproj", "{64C3581A-A7FE-4D43-A2A5-3FA60DBC6B1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,18 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{870B920F-652C-4948-95F0-A1FCC6745A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{870B920F-652C-4948-95F0-A1FCC6745A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{870B920F-652C-4948-95F0-A1FCC6745A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{870B920F-652C-4948-95F0-A1FCC6745A90}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A7E145D-6530-4C16-854E-A3CEE2A02C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A7E145D-6530-4C16-854E-A3CEE2A02C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A7E145D-6530-4C16-854E-A3CEE2A02C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A7E145D-6530-4C16-854E-A3CEE2A02C25}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E1A4D88B-B594-4DEA-B414-B5C253B4F37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E1A4D88B-B594-4DEA-B414-B5C253B4F37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1A4D88B-B594-4DEA-B414-B5C253B4F37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +27,18 @@ Global
 		{F877FC27-1E82-45D7-8B42-078C3452FE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F877FC27-1E82-45D7-8B42-078C3452FE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F877FC27-1E82-45D7-8B42-078C3452FE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E752CB-7003-46EC-9250-1D221E96B5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E752CB-7003-46EC-9250-1D221E96B5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E752CB-7003-46EC-9250-1D221E96B5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E752CB-7003-46EC-9250-1D221E96B5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5691578D-C25A-4939-9916-A5E062391B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5691578D-C25A-4939-9916-A5E062391B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5691578D-C25A-4939-9916-A5E062391B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5691578D-C25A-4939-9916-A5E062391B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C3581A-A7FE-4D43-A2A5-3FA60DBC6B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C3581A-A7FE-4D43-A2A5-3FA60DBC6B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C3581A-A7FE-4D43-A2A5-3FA60DBC6B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C3581A-A7FE-4D43-A2A5-3FA60DBC6B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

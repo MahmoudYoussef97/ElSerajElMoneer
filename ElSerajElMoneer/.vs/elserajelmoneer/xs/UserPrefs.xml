@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{B19D544D-A764-414E-A902-907E45D74946}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="elserajelmoneer/Server/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="elserajelmoneer/Client/Pages/Index.razor" Line="7" Column="56" />
+      <File FileName="elserajelmoneer/Client/App.razor" Line="1" Column="1" />
+      <File FileName="elserajelmoneer/Client/Shared/MainLayout.razor" Line="1" Column="1" />
+      <File FileName="elserajelmoneer/Client/Shared/LoginDisplay.razor" Line="1" Column="1" />
+      <File FileName="elserajelmoneer/Client/Pages/FetchData.razor" Line="42" Column="6" />
+      <File FileName="elserajelmoneer/Server/Program.cs" Line="16" Column="1" />
+      <File FileName="elserajelmoneer/Server/Controllers/WeatherForecastController.cs" Line="30" Column="10" />
+      <File FileName="elserajelmoneer/Server/appsettings.json" Line="1" Column="1" />
+      <File FileName="elserajelmoneer/Shared/WeatherForecast.cs" Line="7" Column="18" />
+      <File FileName="elserajelmoneer/Server/Startup.cs" Line="72" Column="15" />
+      <File FileName="elserajelmoneer/Client/Shared/NavMenu.razor" Line="1" Column="1" />
+      <File FileName="elserajelmoneer/Client/Pages/Authentication.razor" Line="1" Column="1" />
+      <File FileName="elserajelmoneer/Client/Pages/Counter.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="elserajelmoneer" expanded="True">
+            <Node name="elserajelmoneer.Client" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True" />
+            </Node>
+            <Node name="elserajelmoneer.Server" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="elserajelmoneer.Shared" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.elserajelmoneer.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

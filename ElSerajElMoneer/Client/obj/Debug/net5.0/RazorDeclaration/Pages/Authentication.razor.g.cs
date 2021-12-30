@@ -13,84 +13,84 @@ namespace ElSerajElMoneer.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 1 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 2 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 3 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 4 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 5 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 6 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 7 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 8 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 9 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 10 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using ElSerajElMoneer.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/_Imports.razor"
+#line 11 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/_Imports.razor"
 using ElSerajElMoneer.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Authentication.razor"
+#line 2 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/Pages/Authentication.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
 #line default
@@ -105,7 +105,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 5 "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Client/Pages/Authentication.razor"
+#line 5 "/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Client/Pages/Authentication.razor"
       
     [Parameter] public string Action { get; set; }
 

@@ -1,36 +1,30 @@
-﻿<Properties StartupConfiguration="{CD6E4C3D-F2F9-4C5E-9AEA-BF7DDD449B85}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ElSerajElMoneer.Core/Extension/PagedList.cs">
+﻿<Properties StartupConfiguration="{D7E752CB-7003-46EC-9250-1D221E96B5F4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="elserajelmoneer/Server/Controllers/TaghredatElSeraController.cs">
     <Files>
-      <File FileName="ElSerajElMoneer/Client/Pages/Taghreda.razor" Line="4" Column="33" />
+      <File FileName="ElSerajElMoneer/Client/Pages/Taghreda.razor" Line="476" Column="20" />
       <File FileName="ElSerajElMoneer/Client/Pages/Taghredat.razor" />
-      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraResponse.cs" Line="13" Column="35" />
-      <File FileName="ElSerajElMoneer.Data/Models/TaghredatElSera.cs" Line="10" Column="48" />
+      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraResponse.cs" />
+      <File FileName="ElSerajElMoneer.Data/Models/TaghredatElSera.cs" />
       <File FileName="ElSerajElMoneer/Client/Pages/FetchData.razor" />
       <File FileName="ElSerajElMoneer.Core/Services/ITaghredatElSeraService.cs" />
-      <File FileName="ElSerajElMoneer.Core/Repositories/ITaghredatElSeraRepository.cs" Line="12" Column="48" />
-      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraRepository.cs" Line="43" Column="50" />
-      <File FileName="ElSerajElMoneer.Core/Services/TaghredatElSeraService.cs" Line="37" Column="1" />
+      <File FileName="ElSerajElMoneer.Core/Repositories/ITaghredatElSeraRepository.cs" />
+      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraRepository.cs" Line="53" Column="28" />
+      <File FileName="ElSerajElMoneer.Core/Services/TaghredatElSeraService.cs" />
       <File FileName="ElSerajElMoneer.Data/Models/Counter.cs" />
-      <File FileName="ElSerajElMoneer/Server/appsettings.json" Line="2" Column="35" />
-      <File FileName="ElSerajElMoneer.Data/Models/ElSerajElMoneerDatabaseSettings.cs" Line="12" Column="22" />
+      <File FileName="ElSerajElMoneer.Data/Models/ElSerajElMoneerDatabaseSettings.cs" />
       <File FileName="ElSerajElMoneer/Server/Program.cs" />
-      <File FileName="ElSerajElMoneer/Server/Startup.cs" Line="56" Column="95" />
-      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraMongoDBRepository.cs" Line="51" Column="55" />
-      <File FileName="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs" Line="145" Column="106" />
-      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraCreateInputDto.cs" Line="21" Column="45" />
-      <File FileName="ElSerajElMoneer.Core/Extension/PagedList.cs" Line="8" Column="40" />
+      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraMongoDBRepository.cs" />
+      <File FileName="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs" Line="42" Column="19" />
+      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraCreateInputDto.cs" />
+      <File FileName="ElSerajElMoneer.Core/Extension/PagedList.cs" />
+      <File FileName="ElSerajElMoneer/Server/appsettings.json" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ElSerajElMoneer" expanded="True">
-            <Node name="ElSerajElMoneer.Client" expanded="True">
-              <Node name="Pages" expanded="True" />
-            </Node>
             <Node name="ElSerajElMoneer.Core" expanded="True">
-              <Node name="Extension" expanded="True">
-                <Node name="PagedList.cs" selected="True" />
-              </Node>
+              <Node name="Extension" expanded="True" />
               <Node name="Repositories" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
@@ -39,9 +33,10 @@
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="ElSerajElMoneer.Server" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="TaghredatElSeraController.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="ElSerajElMoneer.Shared" expanded="True" />
           </Node>
         </State>
       </Pad>
