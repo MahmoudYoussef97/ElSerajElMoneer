@@ -11,7 +11,7 @@ namespace ElSerajElMoneer.Core.Services
 {
     public interface ITaghredatElSeraService
     {
-        Task<PagedList<TaghredatElSera>> GetAllPagedTaghredatAsync(TaghredatParametersDto taghredatParametersDto);
+        Task<PagedResponse<TaghredatElSera>> GetAllPagedTaghredatAsync(TaghredatParametersDto taghredatParametersDto);
         Task<IEnumerable<TaghredatElSera>> GetAllAsync();
         Task<TaghredatElSera> GetTaghredaByIdAsync(string id);
         Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto);

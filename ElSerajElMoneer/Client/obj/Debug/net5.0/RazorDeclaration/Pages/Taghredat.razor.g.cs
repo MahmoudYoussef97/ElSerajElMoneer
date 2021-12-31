@@ -148,7 +148,10 @@ using ElSerajElMoneer.Data.Dtos;
         taghredatElSera = new List<TaghredatElSeraResponse>();
         try
         {
-            await GetAllTaghredat(currentPage, pageSize);
+            var response = await Http.GetAsync(
+            $"api/taghredatelsera/?pageNumber={currentPage}&pageSize={pageSize}");
+            taghredatElSera = await response.Content.ReadFromJsonAsync<List<TaghredatElSeraResponse>>();
+            //await GetAllTaghredat(currentPage, pageSize);
         }
         catch (AccessTokenNotAvailableException exception)
         {

@@ -2,7 +2,6 @@
 /Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Shared/bin/Debug/net5.0/ElSerajElMoneer.Shared.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Shared/bin/Debug/net5.0/ref/ElSerajElMoneer.Shared.dll
 /Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Shared/bin/Debug/net5.0/ElSerajElMoneer.Shared.pdb
-/Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Shared/obj/Debug/net5.0/ElSerajElMoneer.Shared.csproj.AssemblyReference.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Shared/obj/Debug/net5.0/ElSerajElMoneer.Shared.GeneratedMSBuildEditorConfig.editorconfig
 /Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Shared/obj/Debug/net5.0/ElSerajElMoneer.Shared.AssemblyInfoInputs.cache
 /Users/mahyoussef/projects/ElSerajElMoneer/elserajelmoneer/Shared/obj/Debug/net5.0/ElSerajElMoneer.Shared.AssemblyInfo.cs

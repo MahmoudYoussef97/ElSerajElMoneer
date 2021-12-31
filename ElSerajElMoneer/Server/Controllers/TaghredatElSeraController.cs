@@ -34,17 +34,17 @@ namespace ElSerajElMoneer.Server.Controllers
             _logger.LogInformation($"---------- GET {Request.Path} -> Recieving a Request From:{Request.Host.Host}, Query Paramters:{Request.QueryString.Value} ----------");
             try
             {
-                //var taghredat = await _taghredatElSeraService.GetAllPagedTaghredatAsync(taghredatParametersDto);
-                var taghredat = await _taghredatElSeraService.GetAllAsync();
+                var taghredat = await _taghredatElSeraService.GetAllPagedTaghredatAsync(taghredatParametersDto);
+                //var taghredat = await _taghredatElSeraService.GetAllAsync();
 
                 _logger.LogInformation($"---------- All Taghredat Are Fetched Successfully ----------");
 
-                //Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(taghredat.MetaData));
+                Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(taghredat.MetaData));
 
                 _logger.LogInformation($"---------- X-Pagination Header Is Applied Succesfully ----------");
                 _logger.LogInformation($"---------- Response Code: 200 OK Succesfully Sent ----------");
 
-                return Ok(taghredat);
+                return Ok(taghredat.Items);
             }
             catch(Exception ex)
             {

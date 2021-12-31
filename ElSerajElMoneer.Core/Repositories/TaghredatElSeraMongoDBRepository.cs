@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using ElSerajElMoneer.Core.Extension;
 using ElSerajElMoneer.Data.Dtos;
 using ElSerajElMoneer.Data.Models;
 using ElSerajElMoneer.Server.Dtos;
@@ -35,9 +36,15 @@ namespace ElSerajElMoneer.Core.Repositories
             return await _taghredat.Find<TaghredatElSera>(t => true).ToListAsync();
 ;        }
 
-        public Task<PagedList<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto)
+        public async Task<PagedResponse<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto)
         {
-            throw new NotImplementedException();
+            var results = await _taghredat.AggregateByPage(
+                        Builders<TaghredatElSera>.Filter.Empty,
+                        Builders<TaghredatElSera>.Sort.Ascending(t => t.Id),
+                        page: taghredatParametersDto.PageNumber,
+                        pageSize: taghredatParametersDto.PageSize);
+
+            return new PagedResponse<TaghredatElSera> { MetaData = results.metaData, Items = results.data };
         }
 
         public async Task<TaghredatElSera> GetById(string id)

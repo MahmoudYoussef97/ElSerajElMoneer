@@ -36,11 +36,12 @@ namespace ElSerajElMoneer.Core.Repositories
         {
             return taghredatElSeras;
         }
-        public async Task<PagedList<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto)
+        public async Task<PagedResponse<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto)
         {
-            return PagedList<TaghredatElSera>.ToPagedList(taghredatElSeras.AsQueryable(),
+            var result = PagedList<TaghredatElSera>.ToPagedList(taghredatElSeras.AsQueryable(),
                 taghredatParametersDto.PageNumber,
                 taghredatParametersDto.PageSize);
+            return new PagedResponse<TaghredatElSera> { MetaData = result.MetaData, Items = result};
         }
         public async Task<TaghredatElSera> GetById(string id)
         {

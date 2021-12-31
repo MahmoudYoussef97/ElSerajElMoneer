@@ -18,7 +18,7 @@ namespace ElSerajElMoneer.Core.Services
             _taghredatElSeraRepository = taghredatElSeraRepository;
         }
 
-        public async Task<PagedList<TaghredatElSera>> GetAllPagedTaghredatAsync(TaghredatParametersDto taghredatParametersDto)
+        public async Task<PagedResponse<TaghredatElSera>> GetAllPagedTaghredatAsync(TaghredatParametersDto taghredatParametersDto)
         {
             return await _taghredatElSeraRepository.GetAllPagedAsync(taghredatParametersDto);
         }

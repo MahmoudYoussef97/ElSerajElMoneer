@@ -12,7 +12,7 @@ namespace ElSerajElMoneer.Core.Repositories
     public interface ITaghredatElSeraRepository
     {
         Task<IEnumerable<TaghredatElSera>> GetAllAsync();
-        Task<PagedList<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto);
+        Task<PagedResponse<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto);
         Task<TaghredatElSera> GetById(string id);
         Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSera taghreda);
         Task UpdateTaghredaAsync(TaghredatElSera oldTaghreda, TaghredatElSeraCreateInputDto updatedTaghreda);
