@@ -16,7 +16,7 @@ namespace ElSerajElMoneer.Core.Services
         Task<TaghredatElSera> GetTaghredaByIdAsync(string id);
         Task<TaghredatElSera> CreateTaghredaAsync(TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto);
         Task UpdateTaghredaAsync(TaghredatElSera oldTaghreda, TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto);
-        Task UpdateCounterAsync(string counter, string id);
+        Task UpdateCounterAsync(Counter counter, string id);
         Task DeleteTaghredaAsync(TaghredatElSera taghreda);
     }
 }

@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Hosting;
 using ElSerajElMoneer.Server.Dtos;
 using Newtonsoft.Json;
 using ElSerajElMoneer.Data.Dtos;
+using ElSerajElMoneer.Data.Models;
 
 namespace ElSerajElMoneer.Server.Controllers
 {
@@ -22,12 +23,14 @@ namespace ElSerajElMoneer.Server.Controllers
     {
         private readonly ITaghredatElSeraService _taghredatElSeraService;
         private readonly ILogger<TaghredatElSeraController> _logger;
+
         public TaghredatElSeraController(ILogger<TaghredatElSeraController> logger, ITaghredatElSeraService
             taghredatElSeraService)
         {
             _taghredatElSeraService = taghredatElSeraService;
             _logger = logger;
         }
+
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] TaghredatParametersDto taghredatParametersDto)
         {
@@ -52,6 +55,7 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500);
         }
+
         [HttpGet("{id}", Name = "GetTaghreda")]
         public async Task<IActionResult> Get(string id)
         {
@@ -65,7 +69,7 @@ namespace ElSerajElMoneer.Server.Controllers
 
                 _logger.LogInformation($"---------- Taghreda is Fetched Succesfully ----------");
 
-                await _taghredatElSeraService.UpdateCounterAsync("watch", id);
+                await _taghredatElSeraService.UpdateCounterAsync(Counter.WatchCounter, id);
 
                 _logger.LogInformation($"---------- Watch Counter is Updated ----------");
                 _logger.LogInformation($"---------- Response Code: 200 OK Succesfully Sent ----------");
@@ -78,6 +82,7 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500);
         }
+
         [HttpGet("download/{id}")]
         public async Task<IActionResult> Download(string id)
         {
@@ -91,7 +96,7 @@ namespace ElSerajElMoneer.Server.Controllers
                 _logger.LogInformation($"---------- Taghreda is Fetched Succesfully ----------");
 
                 var result = PhysicalFile(taghreda.DownloadUrl, "application/octet-stream", id+".mp4");
-                await _taghredatElSeraService.UpdateCounterAsync("download", id);
+                await _taghredatElSeraService.UpdateCounterAsync(Counter.DownloadCounter, id);
 
                 _logger.LogInformation($"---------- Taghreda is Downloaded Succesfully ----------");
                 _logger.LogInformation($"---------- Download Counter is Updated ----------");
@@ -104,6 +109,7 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500);
         }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)
         {
@@ -130,6 +136,7 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500, "Internal Server Error");
         }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, [FromBody] TaghredatElSeraCreateInputDto taghredatElSeraCreateInputDto)
         {
@@ -155,6 +162,7 @@ namespace ElSerajElMoneer.Server.Controllers
             }
             return StatusCode(500);
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {

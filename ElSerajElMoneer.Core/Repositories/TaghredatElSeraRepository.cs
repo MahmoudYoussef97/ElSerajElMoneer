@@ -36,12 +36,13 @@ namespace ElSerajElMoneer.Core.Repositories
         {
             return taghredatElSeras;
         }
-        public async Task<PagedResponse<TaghredatElSera>> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto)
+        public async Task<(MetaData, IEnumerable<TaghredatElSera>)> GetAllPagedAsync(TaghredatParametersDto taghredatParametersDto)
         {
             var result = PagedList<TaghredatElSera>.ToPagedList(taghredatElSeras.AsQueryable(),
                 taghredatParametersDto.PageNumber,
                 taghredatParametersDto.PageSize);
-            return new PagedResponse<TaghredatElSera> { MetaData = result.MetaData, Items = result};
+
+            return (result.MetaData, result);
         }
         public async Task<TaghredatElSera> GetById(string id)
         {
@@ -64,8 +65,9 @@ namespace ElSerajElMoneer.Core.Repositories
             taghreda.NumberOfWatches+=1;
         }
 
-        public async Task UpdateTaghredaAsync(TaghredatElSera oldTaghreda, TaghredatElSeraCreateInputDto updatedTaghreda)
+        public async Task UpdateTaghredaAsync(string id, TaghredatElSera updatedTaghreda)
         {
+            var oldTaghreda = taghredatElSeras.FirstOrDefault(t => t.Id == id);
             oldTaghreda.Description = updatedTaghreda.Description;
             oldTaghreda.DownloadUrl = updatedTaghreda.DownloadUrl;
             oldTaghreda.WatchUrl = updatedTaghreda.WatchUrl;
