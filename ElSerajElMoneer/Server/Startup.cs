@@ -14,6 +14,7 @@ using ElSerajElMoneer.Core.Services;
 using ElSerajElMoneer.Core.Repositories;
 using ElSerajElMoneer.Data.Models;
 using Microsoft.Extensions.Options;
+using Amazon.S3;
 
 namespace ElSerajElMoneer.Server
 {
@@ -56,6 +57,9 @@ namespace ElSerajElMoneer.Server
             services.AddSingleton<ITaghredatElSeraRepository, TaghredatElSeraMongoDBRepository>();
             services.AddSingleton<ITaghredatElSeraService, TaghredatElSeraService>();
 
+
+            services.AddDefaultAWSOptions(Configuration.GetAWSOptions());
+            services.AddAWSService<IAmazonS3>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

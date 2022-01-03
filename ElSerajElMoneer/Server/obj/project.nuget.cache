@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HClqkdf5lI4P5yHKdypYsiYr33ZTRlyGbDxsnBy1rNStc1yLxtEDB1rzJx2EfCmP0UygQ0tCZFXHg2Xyzn+0SA==",
+  "dgSpecHash": "cPvwFOGKYkVyt15JRay0pE2stRnv309NOCHloODU/ndCuDwX05dXq7in/ZgnuIubxuL+BkpzyfxxOPsxh+lJxw==",
   "success": true,
   "projectFilePath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer/Server/ElSerajElMoneer.Server.csproj",
   "expectedPackageFiles": [
     "/Users/mahyoussef/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/awssdk.core/3.7.5.8/awssdk.core.3.7.5.8.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/awssdk.extensions.netcore.setup/3.7.1/awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/awssdk.s3/3.7.7.5/awssdk.s3.3.7.7.5.nupkg.sha512",
     "/Users/mahyoussef/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
     "/Users/mahyoussef/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/mahyoussef/.nuget/packages/identitymodel/4.4.0/identitymodel.4.4.0.nupkg.sha512",

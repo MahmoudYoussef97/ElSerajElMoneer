@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "kmi0mGZByjGAMHgdLrbP9L9B2072ziev7hZzqazppozbJYBE+tnINzgPbLMpamuHpWLAtOHSMyhwRLXWIo6Q0g==",
+  "dgSpecHash": "PJYuse0ZkEov5DQ5BjmLmQf8yrcdt/UBlbJ6RmZz2J1KjxOfpjmSLohfO1CbFdaGGdjtpefHoepBxBEQep2UeQ==",
   "success": true,
   "projectFilePath": "/Users/mahyoussef/projects/ElSerajElMoneer/ElSerajElMoneer.Core/ElSerajElMoneer.Core.csproj",
   "expectedPackageFiles": [
+    "/Users/mahyoussef/.nuget/packages/awssdk.core/3.7.5.8/awssdk.core.3.7.5.8.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/awssdk.extensions.netcore.setup/3.7.1/awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/awssdk.s3/3.7.7.5/awssdk.s3.3.7.7.5.nupkg.sha512",
     "/Users/mahyoussef/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/microsoft.extensions.configuration.abstractions/2.0.0/microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "/Users/mahyoussef/.nuget/packages/microsoft.extensions.primitives/2.0.0/microsoft.extensions.primitives.2.0.0.nupkg.sha512",
     "/Users/mahyoussef/.nuget/packages/mongodb.bson/2.14.1/mongodb.bson.2.14.1.nupkg.sha512",
     "/Users/mahyoussef/.nuget/packages/mongodb.driver/2.14.1/mongodb.driver.2.14.1.nupkg.sha512",
     "/Users/mahyoussef/.nuget/packages/mongodb.driver.core/2.14.1/mongodb.driver.core.2.14.1.nupkg.sha512",

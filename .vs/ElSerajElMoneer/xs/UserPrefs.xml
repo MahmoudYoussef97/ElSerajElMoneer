@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{D7E752CB-7003-46EC-9250-1D221E96B5F4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ElSerajElMoneer.Core/Repositories/TaghredatElSeraMongoDBRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="elserajelmoneer/Server/Startup.cs">
     <Files>
       <File FileName="ElSerajElMoneer/Client/Pages/Taghreda.razor" Line="476" Column="20" />
       <File FileName="ElSerajElMoneer/Client/Pages/Taghredat.razor" />
-      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraResponse.cs" />
+      <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraResponse.cs" Line="1" Column="1" />
       <File FileName="ElSerajElMoneer.Data/Models/TaghredatElSera.cs" />
       <File FileName="ElSerajElMoneer/Client/Pages/FetchData.razor" />
       <File FileName="ElSerajElMoneer.Core/Services/ITaghredatElSeraService.cs" />
@@ -13,14 +13,17 @@
       <File FileName="ElSerajElMoneer.Data/Models/Counter.cs" />
       <File FileName="ElSerajElMoneer.Data/Models/ElSerajElMoneerDatabaseSettings.cs" />
       <File FileName="ElSerajElMoneer/Server/Program.cs" />
-      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraMongoDBRepository.cs" Line="37" Column="11" />
-      <File FileName="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs" />
+      <File FileName="ElSerajElMoneer.Core/Repositories/TaghredatElSeraMongoDBRepository.cs" />
+      <File FileName="ElSerajElMoneer/Server/Controllers/TaghredatElSeraController.cs" Line="26" Column="1" />
       <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatElSeraCreateInputDto.cs" />
       <File FileName="ElSerajElMoneer.Core/Extension/PagedList.cs" />
       <File FileName="ElSerajElMoneer/Server/appsettings.json" />
       <File FileName="ElSerajElMoneer.Core/Extension/MongoCollectionQueryByPageExtensions.cs" />
       <File FileName="ElSerajElMoneer.Data/Dtos/MetaData.cs" />
       <File FileName="ElSerajElMoneer.Data/Dtos/TaghredatParametersDto.cs" />
+      <File FileName="ElSerajElMoneer.Core/Services/AmazonS3Service.cs" Line="22" Column="75" />
+      <File FileName="ElSerajElMoneer.Data/Models/ConfigKeys.cs" Line="9" Column="43" />
+      <File FileName="ElSerajElMoneer/Server/Startup.cs" Line="61" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,17 +34,15 @@
             </Node>
             <Node name="ElSerajElMoneer.Core" expanded="True">
               <Node name="Extension" expanded="True" />
-              <Node name="Repositories" expanded="True">
-                <Node name="TaghredatElSeraMongoDBRepository.cs" selected="True" />
-              </Node>
+              <Node name="Repositories" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="ElSerajElMoneer.Data" expanded="True">
-              <Node name="Dtos" expanded="True" />
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="ElSerajElMoneer.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
